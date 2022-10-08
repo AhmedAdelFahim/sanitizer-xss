@@ -1,5 +1,7 @@
 import { prepareSanitize } from './lib/sanitizer';
 
-export default {
+const Sanitizer = {
   sanitize: prepareSanitize,
 };
+
+export default Sanitizer;
